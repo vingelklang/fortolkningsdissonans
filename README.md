@@ -1,1 +1,12 @@
-# REVERSE GRINDER!!!Fortolkningsdissonans
+# REVERSE GRINDER!!!
+
+INTERNETT ER EN KVERN som mates med unik, uttrykksfull musikk fra velmenende folk, men ut kommer bare en sleip, kjedelig deig der alle uttrykk er like og ingenting betyr noe.
+VI VIL TVINGE KVERNA I REVERS. Vi skal hente råmateriale fra den digitale sfæren, suge den grå deigen inn igjen i kverna og trylle frem saftige biter av meningsfull kunst. De resulterende kunstverkene vil realiseres som fysiske objekter og rom i den virkelige verden.
+
+# Fortolkningsdissonans
+
+Koronavirusets utbredelse – og alle dertil hørende størrelser som reproduksjonsrate, dødsrate, og så videre, og så videre – blir presentert i politikk og media som en endeløs rekke av tall. Kanskje kjennetegner dette koronakrisen mer enn noe annet: Mangelen på troverdige, betryggende narrativer for hvordan denne situasjonen vil utvikle seg, har tvunget folk til å søke trygghet i tallrekkene og kurvene. Men tallene er høyst usikre: Ikke bare er det store forskjeller fra land til land, ja by til by, i hvordan smitte oppdages og måles og hvem som testes. Ekstrapoleringen fra disse høyst begrensede datasettene til en projeksjon for virusets generelle utbredelse er også heftet med stor usikkerhet. Derfor avviker også de ulike lands og helseorganisasjoners projeksjoner for nåværende og fremtidig smitte sterkt fra hverandre. 
+
+I det digitale kunstverket med arbeidstittel Fortolkningsdissonans vil vi løfte frem denne usikkerheten ved å representere de ulike smitteprojeksjonene som toner – sammenlagt som en akkord. Basert på stadig innkommende data fra WHO vil kunstverket generere fem toner, hver basert på én av fortolkningsnormene som er i bruk i dag – f.eks. FHI sin fortolkning, WHO sin, eller den tyske myndigheter legger til grunn. Hadde fortolkningen av dataene vært lik, ville alle spilt samme tone, men siden de spriker, vil også tonene sprike og sammenlagt utgjøre en akkord. Akkorden vil stadig endre seg ut fra innkommende måledata (f.eks. bekreftet smittede) og hvordan disse dataene fortolkes gjennom de ulike modellene.
+
+Verket vil realiseres som en kontinuerlig, evigvarende livestrøm på youtube. Denne vil vi inkorporere som et solistinnslag i våre konserter, og verket kan også fungere som offentlige installasjoner både i vår egen og andres regi. Akkorden vil også presenteres som stadig oppdatert musikalsk notasjon og midi-verdier, slik at fortolkningsdissonansen kan fremføres live av for eksempel en strykekvintett eller Kygo. Verkets format, den digitale livestrømmen, danner altså grunnlag for en rekke ulike interaksjoner mellom data og vår fysiske verden.
