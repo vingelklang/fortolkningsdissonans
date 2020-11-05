@@ -847,7 +847,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "32035"
+									"text" : "23127"
 								}
 
 							}
@@ -871,7 +871,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 370.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "0.8315"
+									"text" : "0.7164"
 								}
 
 							}
@@ -933,7 +933,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 381.0, 327.081179914474433, 50.0, 36.0 ],
-									"text" : "9610.5"
+									"text" : "6938.1"
 								}
 
 							}
@@ -1459,7 +1459,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "6682"
+									"text" : "7502"
 								}
 
 							}
@@ -1483,7 +1483,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 370.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "0.6115"
+									"text" : "0.5867"
 								}
 
 							}
@@ -1545,7 +1545,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 381.0, 327.081179914474433, 50.0, 22.0 ],
-									"text" : "2004.6"
+									"text" : "2250.6"
 								}
 
 							}
@@ -2071,7 +2071,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "13300"
+									"text" : "22217"
 								}
 
 							}
@@ -2095,7 +2095,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 370.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "0.8331"
+									"text" : "0.6092"
 								}
 
 							}
@@ -2157,7 +2157,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 381.0, 327.081179914474433, 50.0, 22.0 ],
-									"text" : "3990."
+									"text" : "6665.1"
 								}
 
 							}
@@ -2861,7 +2861,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "7213"
+									"text" : "32832"
 								}
 
 							}
@@ -2885,7 +2885,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 370.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "0.4905"
+									"text" : "0.0581"
 								}
 
 							}
@@ -2947,7 +2947,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 381.0, 327.081179914474433, 50.0, 22.0 ],
-									"text" : "2163.9"
+									"text" : "9849.6"
 								}
 
 							}
@@ -4441,7 +4441,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 1781.994850999999926, 704.332334671020362, 145.12295500547782, 68.0 ],
-									"setfilter" : [ 0, 2, 1, 0, 0, 407.0, 1.0, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+									"setfilter" : [ 0, 2, 1, 0, 0, 390.0, 1.0, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 								}
 
 							}
@@ -4529,7 +4529,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 1077.307350999999926, 704.332334671020362, 145.12295500547782, 68.0 ],
-									"setfilter" : [ 0, 2, 1, 0, 0, 556.70001220703125, 1.0, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+									"setfilter" : [ 0, 2, 1, 0, 0, 501.600006103515625, 1.0, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 								}
 
 							}
@@ -4617,7 +4617,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 375.74485100000004, 706.916167335510181, 145.12295500547782, 68.0 ],
-									"setfilter" : [ 0, 2, 1, 0, 0, 464.54998779296875, 1.0, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+									"setfilter" : [ 0, 2, 1, 0, 0, 443.649993896484375, 1.0, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 								}
 
 							}
@@ -5084,8 +5084,8 @@
 									"numoutlets" : 8,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-									"patching_rect" : [ 2308.369355758030906, 617.598877906799316, 140.0, 22.0 ],
-									"save" : [ "#N", "vst~", "loaduniqueid", 0, 4, 2, "Transmutator.dll", ";" ],
+									"patching_rect" : [ 2308.369355758030906, 617.598877906799316, 150.0, 22.0 ],
+									"save" : [ "#N", "vst~", "loaduniqueid", 0, 4, 2, "Transmutator.vst3", ";" ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
@@ -5111,14 +5111,14 @@
 										"subtype" : "Undefined",
 										"embed" : 1,
 										"snapshot" : 										{
-											"pluginname" : "Transmutator.dll",
+											"pluginname" : "Transmutator.vst3",
 											"plugindisplayname" : "Transmutator",
 											"pluginsavedname" : "",
 											"pluginsaveduniqueid" : 0,
 											"version" : 1,
 											"isbank" : 0,
 											"isbase64" : 1,
-											"blob" : "295.CMlaKA....fQPMDZ....APkbg0D...P.....A.........................................v53ocaO2zSCBC..F9N+JHMdCQ9LgQRaWnCbhy0nYynyafqT.kxRaY.9qeGlG7fWeN7l7BWN08s4YlT0zKP.u6bAlLwm8GaDbDXPWYu.rDa.2KKDptAcgtWpXZcifqLyN1n6k6Z9g4i.wdg2F6EBLeVxTLMsnikf.4z78+kH+RXXA9FF8T6g0jvwGjeIJc4qIytd9guODHFrBzQjVd9pDWZ0aS1SQwArSQu7wAd33HMJgtKNKKGAcJvFvxqw3IOR1lV2mZcuEmlOtXapUqv9bb5b87DYplW4mrYTs5oWQPmRrAz4eFSgMt.V8qVJA"
+											"blob" : "648.VMjLg7m....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLw3xLuMVXNIidgIjPCYjKGshSkoDRMQVdW4BSKMESuMGaGEiXHokQzckcxMyc3MSVvHkY3IUXU0lMSU2Q5MDY1E2JRkSa2zlS1TWLFsxPtcGb0nGSRomaPg1SvsBcwI0aqwDdjIySCkVR4MCY5ITZPEVXxXCQz4TZEMlSqYkV3z1UuI1Xr8TUqjVZYolcAcFQqHCStUzXzflUDgkZxcibnE1apEGQsozL3X2MkEmLrwFRWETTOQEYxUmVNIzSsQFRN8VP0HiZ4bmZyY2cswDL0sjKZYlY1D0R0QjKYUGcXUiSPoFUq3FS4DWQsEib5I2TVQjP3ASLWwjKoE0PJQCY5YlMLE2Z1LlQlg0b3Q0Z77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.SLtLyaiElSxnWXBIzPF4xQq3TYJgTSjk2UtvzRSwzayw1QwHFRZYDcWYmbybGdyjELRYFdREVUsYyT0cjdCQlcwshT4z1Ms4jM0EiQqLja2AWM5wjT54FTn8DbqPWbR81ZLgGYx7zPokTdyPldBkFTgElL1PDcNkVQi4zZVoENsc0ahMFaOU0JokVVpYWPmQzJxvjaEMFMnYEQXolb2HGZg8lZwQTaJMCN1cSYwICargzUAE0STQlb0okSB8TajgjSuETMxnVN2o1b1cWaLAScK4hVlYlMQsTcD4RV0QGV03DTpQ0JtwTNwUTawHmdxMkUDIDdvDyUL4RZQMjRzPldlYCSwslMiYjYXMGdTsFOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
 										}
 ,
 										"snapshotlist" : 										{
@@ -5128,27 +5128,81 @@
 													"version" : 2,
 													"minorversion" : 0,
 													"name" : "Transmutator",
-													"origin" : "Transmutator.dll",
-													"type" : "VST",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
 													"subtype" : "MidiEffect",
 													"embed" : 0,
 													"snapshot" : 													{
-														"pluginname" : "Transmutator.dll",
+														"pluginname" : "Transmutator.vst3",
 														"plugindisplayname" : "Transmutator",
 														"pluginsavedname" : "",
 														"pluginsaveduniqueid" : 0,
 														"version" : 1,
 														"isbank" : 0,
 														"isbase64" : 1,
-														"blob" : "295.CMlaKA....fQPMDZ....APkbg0D...P.....A.........................................v53ocaO2zSCBC..F9N+JHMdCQ9LgQRaWnCbhy0nYynyafqT.kxRaY.9qeGlG7fWeN7l7BWN08s4YlT0zKP.u6bAlLwm8GaDbDXPWYu.rDa.2KKDptAcgtWpXZcifqLyN1n6k6Z9g4i.wdg2F6EBLeVxTLMsnikf.4z78+kH+RXXA9FF8T6g0jvwGjeIJc4qIytd9guODHFrBzQjVd9pDWZ0aS1SQwArSQu7wAd33HMJgtKNKKGAcJvFvxqw3IOR1lV2mZcuEmlOtXapUqv9bb5b87DYplW4mrYTs5oWQPmRrAz4eFSgMt.V8qVJA"
+														"blob" : "648.VMjLg7m....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLw3xLuMVXNIidgIjPCYjKGshSkoDRMQVdW4BSKMESuMGaGEiXHokQzckcxMyc3MSVvHkY3IUXU0lMSU2Q5MDY1E2JRkSa2zlS1TWLFsxPtcGb0nGSRomaPg1SvsBcwI0aqwDdjIySCkVR4MCY5ITZPEVXxXCQz4TZEMlSqYkV3z1UuI1Xr8TUqjVZYolcAcFQqHCStUzXzflUDgkZxcibnE1apEGQsozL3X2MkEmLrwFRWETTOQEYxUmVNIzSsQFRN8VP0HiZ4bmZyY2cswDL0sjKZYlY1D0R0QjKYUGcXUiSPoFUq3FS4DWQsEib5I2TVQjP3ASLWwjKoE0PJQCY5YlMLE2Z1LlQlg0b3Q0Z77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.SLtLyaiElSxnWXBIzPF4xQq3TYJgTSjk2UtvzRSwzayw1QwHFRZYDcWYmbybGdyjELRYFdREVUsYyT0cjdCQlcwshT4z1Ms4jM0EiQqLja2AWM5wjT54FTn8DbqPWbR81ZLgGYx7zPokTdyPldBkFTgElL1PDcNkVQi4zZVoENsc0ahMFaOU0JokVVpYWPmQzJxvjaEMFMnYEQXolb2HGZg8lZwQTaJMCN1cSYwICargzUAE0STQlb0okSB8TajgjSuETMxnVN2o1b1cWaLAScK4hVlYlMQsTcD4RV0QGV03DTpQ0JtwTNwUTawHmdxMkUDIDdvDyUL4RZQMjRzPldlYCSwslMiYjYXMGdTsFOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
 													}
 ,
 													"fileref" : 													{
 														"name" : "Transmutator",
-														"filename" : "Transmutator.maxsnap",
+														"filename" : "Transmutator_20201105.maxsnap",
 														"filepath" : "~/Documents/Max 8/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "b9df1dfd7c8fd1295929dc57f121e2f3"
+														"snapshotfileid" : "ac46c561de442268d0e1ca48c8f31ac7"
+													}
+
+												}
+, 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "Transmutator",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
+													"subtype" : "MidiEffect",
+													"embed" : 0,
+													"fileref" : 													{
+														"name" : "Transmutator",
+														"filename" : "Transmutator_20201105_1.maxsnap",
+														"filepath" : "~/Documents/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "aec10298a08e7bd0e6e820f4106c5717"
+													}
+
+												}
+, 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "Transmutator",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
+													"subtype" : "MidiEffect",
+													"embed" : 0,
+													"fileref" : 													{
+														"name" : "Transmutator",
+														"filename" : "Transmutator_20201105_2.maxsnap",
+														"filepath" : "~/Documents/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "cbe6d6fcd55c22f606835fcfbe1f765b"
+													}
+
+												}
+, 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "Transmutator",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
+													"subtype" : "MidiEffect",
+													"embed" : 0,
+													"fileref" : 													{
+														"name" : "Transmutator",
+														"filename" : "Transmutator_20201105_3.maxsnap",
+														"filepath" : "~/Documents/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "c9cc371f10bc2c3cff6458c1420e8c6f"
 													}
 
 												}
@@ -5157,7 +5211,7 @@
 
 									}
 ,
-									"text" : "vst~ 4 2 Transmutator.dll",
+									"text" : "vst~ 4 2 Transmutator.vst3",
 									"varname" : "vst~[3]",
 									"viewvisibility" : 0
 								}
@@ -5447,8 +5501,8 @@
 									"numoutlets" : 8,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-									"patching_rect" : [ 1605.244355758031134, 617.598877906799316, 140.0, 22.0 ],
-									"save" : [ "#N", "vst~", "loaduniqueid", 0, 4, 2, "Transmutator.dll", ";" ],
+									"patching_rect" : [ 1605.244355758031134, 617.598877906799316, 150.0, 22.0 ],
+									"save" : [ "#N", "vst~", "loaduniqueid", 0, 4, 2, "Transmutator.vst3", ";" ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
@@ -5474,14 +5528,14 @@
 										"subtype" : "Undefined",
 										"embed" : 1,
 										"snapshot" : 										{
-											"pluginname" : "Transmutator.dll",
+											"pluginname" : "Transmutator.vst3",
 											"plugindisplayname" : "Transmutator",
 											"pluginsavedname" : "",
 											"pluginsaveduniqueid" : 0,
 											"version" : 1,
 											"isbank" : 0,
 											"isbase64" : 1,
-											"blob" : "292.CMlaKA....fQPMDZ....APkbg0D...P.....A..........................................53ocaO2zSCBC..F9N+JHMdCQ9PLCRZ6RKUW.GDWDi5tU1JEVjhg1M.+06A8fG75yg2jW3549OruHF0cCJDH3FefsPcX3XmRh.mMMtwf0XKX0HWo6Oa3lgQsvX5TRs88G6LCiO28kHDARBhtNIHBX+znPKLk7dAAAxJyp9KQ+kvPN9JQ4mmdeCM60sUtlZe4F5h+9oTFKfvoj7zc9EMgItyqtKTje6t8Y5USSzHxajCEwRDB5wwVv5eBII4zBV6.y4AGYY1TbAy4jx8RBaocYlN2JaBIONoS29BB5Uisfd+yTZr02.J9EVt."
+											"blob" : "644.VMjLgrm....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSN43xLuMVXNUWbgIzPCUjKFQ1SOUTTVI2cqoFdtPjZx0TMpYERDoFRTETPmIkLLs1TiwjR2ETVgQWN5kmKLYGTWshZ4rVNukVcVcEMkYTSVUUZrEUNtcER2cDLqDibW81ZLgWRxT1XogTZzPldhkFTgE2SzPDcFkVQi4zZVoENsI2UznESwUkL2kCSRgUaPg1JxXjdnQGSQ0jPLIkVVoUN1P0MKg1TEciUXEycCUTR2IUXZUkZyHUXvPDQ4nDMhQkXEoGcJkEL1IzL301ZEY2SK8VPBQ2QiISdtfzX2IWTqYFR4XmKYoWLYISLLICUJk2PAQiT1P0P1gkdlMlXOokcqvTbqYCNtPjUJMUYCwyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9DSN43xLuMVXNUWbgIzPCUjKFQ1SOUTTVI2cqoFdtPjZx0TMpYERDoFRTETPmIkLLs1TiwjR2ETVgQWN5kmKLYGTWshZ4rVNukVcVcEMkYTSVUUZrEUNtcER2cDLqDibW81ZLgWRxT1XogTZzPldhkFTgE2SzPDcFkVQi4zZVoENsI2UznESwUkL2kCSRgUaPg1JxXjdnQGSQ0jPLIkVVoUN1P0MKg1TEciUXEycCUTR2IUXZUkZyHUXvPDQ4nDMhQkXEoGcJkEL1IzL301ZEY2SK8VPBQ2QiISdtfzX2IWTqYFR4XmKYoWLYISLLICUJk2PAQiT1P0P1gkdlMlXOokcqvTbqYCNtPjUJMUYCwyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9.."
 										}
 ,
 										"snapshotlist" : 										{
@@ -5491,27 +5545,81 @@
 													"version" : 2,
 													"minorversion" : 0,
 													"name" : "Transmutator",
-													"origin" : "Transmutator.dll",
-													"type" : "VST",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
 													"subtype" : "MidiEffect",
 													"embed" : 0,
 													"snapshot" : 													{
-														"pluginname" : "Transmutator.dll",
+														"pluginname" : "Transmutator.vst3",
 														"plugindisplayname" : "Transmutator",
 														"pluginsavedname" : "",
 														"pluginsaveduniqueid" : 0,
 														"version" : 1,
 														"isbank" : 0,
 														"isbase64" : 1,
-														"blob" : "292.CMlaKA....fQPMDZ....APkbg0D...P.....A..........................................53ocaO2zSCBC..F9N+JHMdCQ9PLCRZ6RKUW.GDWDi5tU1JEVjhg1M.+06A8fG75yg2jW3549OruHF0cCJDH3FefsPcX3XmRh.mMMtwf0XKX0HWo6Oa3lgQsvX5TRs88G6LCiO28kHDARBhtNIHBX+znPKLk7dAAAxJyp9KQ+kvPN9JQ4mmdeCM60sUtlZe4F5h+9oTFKfvoj7zc9EMgItyqtKTje6t8Y5USSzHxajCEwRDB5wwVv5eBII4zBV6.y4AGYY1TbAy4jx8RBaocYlN2JaBIONoS29BB5Uisfd+yTZr02.J9EVt."
+														"blob" : "644.VMjLgrm....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSN43xLuMVXNUWbgIzPCUjKFQ1SOUTTVI2cqoFdtPjZx0TMpYERDoFRTETPmIkLLs1TiwjR2ETVgQWN5kmKLYGTWshZ4rVNukVcVcEMkYTSVUUZrEUNtcER2cDLqDibW81ZLgWRxT1XogTZzPldhkFTgE2SzPDcFkVQi4zZVoENsI2UznESwUkL2kCSRgUaPg1JxXjdnQGSQ0jPLIkVVoUN1P0MKg1TEciUXEycCUTR2IUXZUkZyHUXvPDQ4nDMhQkXEoGcJkEL1IzL301ZEY2SK8VPBQ2QiISdtfzX2IWTqYFR4XmKYoWLYISLLICUJk2PAQiT1P0P1gkdlMlXOokcqvTbqYCNtPjUJMUYCwyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9DSN43xLuMVXNUWbgIzPCUjKFQ1SOUTTVI2cqoFdtPjZx0TMpYERDoFRTETPmIkLLs1TiwjR2ETVgQWN5kmKLYGTWshZ4rVNukVcVcEMkYTSVUUZrEUNtcER2cDLqDibW81ZLgWRxT1XogTZzPldhkFTgE2SzPDcFkVQi4zZVoENsI2UznESwUkL2kCSRgUaPg1JxXjdnQGSQ0jPLIkVVoUN1P0MKg1TEciUXEycCUTR2IUXZUkZyHUXvPDQ4nDMhQkXEoGcJkEL1IzL301ZEY2SK8VPBQ2QiISdtfzX2IWTqYFR4XmKYoWLYISLLICUJk2PAQiT1P0P1gkdlMlXOokcqvTbqYCNtPjUJMUYCwyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9.."
 													}
 ,
 													"fileref" : 													{
 														"name" : "Transmutator",
-														"filename" : "Transmutator.maxsnap",
+														"filename" : "Transmutator_20201105_1.maxsnap",
 														"filepath" : "~/Documents/Max 8/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "b9df1dfd7c8fd1295929dc57f121e2f3"
+														"snapshotfileid" : "aec10298a08e7bd0e6e820f4106c5717"
+													}
+
+												}
+, 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "Transmutator",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
+													"subtype" : "MidiEffect",
+													"embed" : 0,
+													"fileref" : 													{
+														"name" : "Transmutator",
+														"filename" : "Transmutator_20201105.maxsnap",
+														"filepath" : "~/Documents/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "ac46c561de442268d0e1ca48c8f31ac7"
+													}
+
+												}
+, 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "Transmutator",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
+													"subtype" : "MidiEffect",
+													"embed" : 0,
+													"fileref" : 													{
+														"name" : "Transmutator",
+														"filename" : "Transmutator_20201105_2.maxsnap",
+														"filepath" : "~/Documents/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "cbe6d6fcd55c22f606835fcfbe1f765b"
+													}
+
+												}
+, 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "Transmutator",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
+													"subtype" : "MidiEffect",
+													"embed" : 0,
+													"fileref" : 													{
+														"name" : "Transmutator",
+														"filename" : "Transmutator_20201105_3.maxsnap",
+														"filepath" : "~/Documents/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "c9cc371f10bc2c3cff6458c1420e8c6f"
 													}
 
 												}
@@ -5520,7 +5628,7 @@
 
 									}
 ,
-									"text" : "vst~ 4 2 Transmutator.dll",
+									"text" : "vst~ 4 2 Transmutator.vst3",
 									"varname" : "vst~[2]",
 									"viewvisibility" : 0
 								}
@@ -5810,8 +5918,8 @@
 									"numoutlets" : 8,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-									"patching_rect" : [ 900.556855758031134, 617.598877906799316, 140.0, 22.0 ],
-									"save" : [ "#N", "vst~", "loaduniqueid", 0, 4, 2, "Transmutator.dll", ";" ],
+									"patching_rect" : [ 900.556855758031134, 617.598877906799316, 150.0, 22.0 ],
+									"save" : [ "#N", "vst~", "loaduniqueid", 0, 4, 2, "Transmutator.vst3", ";" ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
@@ -5837,14 +5945,14 @@
 										"subtype" : "Undefined",
 										"embed" : 1,
 										"snapshot" : 										{
-											"pluginname" : "Transmutator.dll",
+											"pluginname" : "Transmutator.vst3",
 											"plugindisplayname" : "Transmutator",
 											"pluginsavedname" : "",
 											"pluginsaveduniqueid" : 0,
 											"version" : 1,
 											"isbank" : 0,
 											"isbase64" : 1,
-											"blob" : "289.CMlaKA....fQPMDZ....APkbg0D...P.....A.........................................P43ocaO2zSCBC..F9N+JHMdCQfMhYjz1kxXhLkpwgG1QXqqThzZZ6Fe7q2D0CdvquGdRdgqG6+v8JSaDJIBDcWHvkIOpNIjbD3h8r+JvZrCrRWKM8Wr0Vk1vrVgjab2dRXU58hY1BDHIJ91jnXf6qZlgYo08LBBTPKp9aJ82DFViugQ+r6PNI93KMk4KsokYsp4AR9i2SB2P1usUcvyp86VNaRp73SusatkWERXybpfiPvfZrCr4GHNY22.YdO3woECqJy75j9WSxlZmFSGa4mWPdZvr442QvfFrCL3elxfc9BN8rVB."
+											"blob" : "644.VMjLgrm....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSN43xLuMVXNcjbZIzPC4hKFkCYkojRAUGLu0jREcUQRglZt3zbBszXoAychcTZvHmdHEWRikTTyESaj8jbig0Q2TyQ2LzJtsFNyU1QkYUM2nUbAMDaNEjPnsFaZYSPyE0YA0lPk0jSGImZDcFbhITZ0gCUPQjbNUGSDomQq8DYvDzX1UCYS8DRscVP1cjYlMyUhIUcLYWQyIkRFQkcKAWNOcWNogDRAkkZpIyX2jGLLEVR4sldxr1cXYSMuk0PIo2MkYUP0I1YqfzZWcUdrkiRFslRHEka3rhQPsDYjkGZFAmYiIFcJsRZMcUYkEWbQUUPuAmTqLkSJYTZRIyTnA0axjkUOkTMFoFNKMkPBwyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9DSN43xLuMVXNcjbZIzPC4hKFkCYkojRAUGLu0jREcUQRglZt3zbBszXoAychcTZvHmdHEWRikTTyESaj8jbig0Q2TyQ2LzJtsFNyU1QkYUM2nUbAMDaNEjPnsFaZYSPyE0YA0lPk0jSGImZDcFbhITZ0gCUPQjbNUGSDomQq8DYvDzX1UCYS8DRscVP1cjYlMyUhIUcLYWQyIkRFQkcKAWNOcWNogDRAkkZpIyX2jGLLEVR4sldxr1cXYSMuk0PIo2MkYUP0I1YqfzZWcUdrkiRFslRHEka3rhQPsDYjkGZFAmYiIFcJsRZMcUYkEWbQUUPuAmTqLkSJYTZRIyTnA0axjkUOkTMFoFNKMkPBwyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9.."
 										}
 ,
 										"snapshotlist" : 										{
@@ -5854,27 +5962,81 @@
 													"version" : 2,
 													"minorversion" : 0,
 													"name" : "Transmutator",
-													"origin" : "Transmutator.dll",
-													"type" : "VST",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
 													"subtype" : "MidiEffect",
 													"embed" : 0,
 													"snapshot" : 													{
-														"pluginname" : "Transmutator.dll",
+														"pluginname" : "Transmutator.vst3",
 														"plugindisplayname" : "Transmutator",
 														"pluginsavedname" : "",
 														"pluginsaveduniqueid" : 0,
 														"version" : 1,
 														"isbank" : 0,
 														"isbase64" : 1,
-														"blob" : "289.CMlaKA....fQPMDZ....APkbg0D...P.....A.........................................P43ocaO2zSCBC..F9N+JHMdCQfMhYjz1kxXhLkpwgG1QXqqThzZZ6Fe7q2D0CdvquGdRdgqG6+v8JSaDJIBDcWHvkIOpNIjbD3h8r+JvZrCrRWKM8Wr0Vk1vrVgjab2dRXU58hY1BDHIJ91jnXf6qZlgYo08LBBTPKp9aJ82DFViugQ+r6PNI93KMk4KsokYsp4AR9i2SB2P1usUcvyp86VNaRp73SusatkWERXybpfiPvfZrCr4GHNY22.YdO3woECqJy75j9WSxlZmFSGa4mWPdZvr442QvfFrCL3elxfc9BN8rVB."
+														"blob" : "644.VMjLgrm....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSN43xLuMVXNcjbZIzPC4hKFkCYkojRAUGLu0jREcUQRglZt3zbBszXoAychcTZvHmdHEWRikTTyESaj8jbig0Q2TyQ2LzJtsFNyU1QkYUM2nUbAMDaNEjPnsFaZYSPyE0YA0lPk0jSGImZDcFbhITZ0gCUPQjbNUGSDomQq8DYvDzX1UCYS8DRscVP1cjYlMyUhIUcLYWQyIkRFQkcKAWNOcWNogDRAkkZpIyX2jGLLEVR4sldxr1cXYSMuk0PIo2MkYUP0I1YqfzZWcUdrkiRFslRHEka3rhQPsDYjkGZFAmYiIFcJsRZMcUYkEWbQUUPuAmTqLkSJYTZRIyTnA0axjkUOkTMFoFNKMkPBwyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9DSN43xLuMVXNcjbZIzPC4hKFkCYkojRAUGLu0jREcUQRglZt3zbBszXoAychcTZvHmdHEWRikTTyESaj8jbig0Q2TyQ2LzJtsFNyU1QkYUM2nUbAMDaNEjPnsFaZYSPyE0YA0lPk0jSGImZDcFbhITZ0gCUPQjbNUGSDomQq8DYvDzX1UCYS8DRscVP1cjYlMyUhIUcLYWQyIkRFQkcKAWNOcWNogDRAkkZpIyX2jGLLEVR4sldxr1cXYSMuk0PIo2MkYUP0I1YqfzZWcUdrkiRFslRHEka3rhQPsDYjkGZFAmYiIFcJsRZMcUYkEWbQUUPuAmTqLkSJYTZRIyTnA0axjkUOkTMFoFNKMkPBwyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9.."
 													}
 ,
 													"fileref" : 													{
 														"name" : "Transmutator",
-														"filename" : "Transmutator.maxsnap",
+														"filename" : "Transmutator_20201105_2.maxsnap",
 														"filepath" : "~/Documents/Max 8/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "b9df1dfd7c8fd1295929dc57f121e2f3"
+														"snapshotfileid" : "cbe6d6fcd55c22f606835fcfbe1f765b"
+													}
+
+												}
+, 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "Transmutator",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
+													"subtype" : "MidiEffect",
+													"embed" : 0,
+													"fileref" : 													{
+														"name" : "Transmutator",
+														"filename" : "Transmutator_20201105.maxsnap",
+														"filepath" : "~/Documents/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "ac46c561de442268d0e1ca48c8f31ac7"
+													}
+
+												}
+, 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "Transmutator",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
+													"subtype" : "MidiEffect",
+													"embed" : 0,
+													"fileref" : 													{
+														"name" : "Transmutator",
+														"filename" : "Transmutator_20201105_1.maxsnap",
+														"filepath" : "~/Documents/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "aec10298a08e7bd0e6e820f4106c5717"
+													}
+
+												}
+, 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "Transmutator",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
+													"subtype" : "MidiEffect",
+													"embed" : 0,
+													"fileref" : 													{
+														"name" : "Transmutator",
+														"filename" : "Transmutator_20201105_3.maxsnap",
+														"filepath" : "~/Documents/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "c9cc371f10bc2c3cff6458c1420e8c6f"
 													}
 
 												}
@@ -5883,7 +6045,7 @@
 
 									}
 ,
-									"text" : "vst~ 4 2 Transmutator.dll",
+									"text" : "vst~ 4 2 Transmutator.vst3",
 									"varname" : "vst~[1]",
 									"viewvisibility" : 0
 								}
@@ -6173,8 +6335,8 @@
 									"numoutlets" : 8,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-									"patching_rect" : [ 198.994355758031134, 617.598877906799316, 140.0, 22.0 ],
-									"save" : [ "#N", "vst~", "loaduniqueid", 0, 4, 2, "Transmutator.dll", ";" ],
+									"patching_rect" : [ 198.994355758031134, 617.598877906799316, 150.0, 22.0 ],
+									"save" : [ "#N", "vst~", "loaduniqueid", 0, 4, 2, "Transmutator.vst3", ";" ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
@@ -6200,14 +6362,14 @@
 										"subtype" : "Undefined",
 										"embed" : 1,
 										"snapshot" : 										{
-											"pluginname" : "Transmutator.dll",
+											"pluginname" : "Transmutator.vst3",
 											"plugindisplayname" : "Transmutator",
 											"pluginsavedname" : "",
 											"pluginsaveduniqueid" : 0,
 											"version" : 1,
 											"isbank" : 0,
 											"isbase64" : 1,
-											"blob" : "292.CMlaKA....fQPMDZ....APkbg0D...P.....A..........................................53ocaO2zSCBC..F9N+JHMdCm7gXFjz1kVpt.SHt3LlsaEVovhTLzN9ve8dPO3Au9b3M4EtYt6C6QwftsWg.924ArEpp9ysJIBb0TuJBrAaAOLvU5tqFtoePKLlVkTa+34VS+vqseIBPfX+vai8CA1uLHzBSAuSPPfzhzC+kn+RXHGein3yKG2RCqRpiGK8jaoKdmlRXLeBmRxR16kWGDuZd8CAhr62eJUudZhFRpNFU7NAgftbrEr7mPRRFMm0zybdxQVjNEkybtnVMFyVZVloyMx5.xtIcxyugftkXKn6+LkFa8MMBBVt."
+											"blob" : "648.VMjLg7m....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLw3xLuMVXNIidZIzPC4hKFkCYqTEUBQVdu0TUJAiRpQTRAMVbUgUVCY0QS8jQycGVDEFZroVMWsRMxbFMmMlcw8jcKcCZrQ1b3.0MY8VdwMmQLgzXHQDQK0TXx0jVoIzP0HTXGQkKrIEZPAiSmcmLwTDQAEWdKMTPyEEMo0lLtMjUxbUM1fWTXAkSDkiTNQjPnshdIgCdtbkdJ8FVPUTcvkyJDYSPQAkPR8TRqLSNUU2cvgWaM4BajwTZ2YEYqw1X08zbynmXyr1R2bGUzUmZMgGZQkjPRQjV3TVP5AmLK0lbooDV1jWUEsBUjYiMEQ2XvoERUgyYqT0QEkVTIEWRQ4lZswjbsQDN13RV3oVa77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.SLtLyaiElSxnmVBMzPt3hQ4P1JUQkPjk2aMUkRvnjZDkTPiEWUXk0PVczTOYzb2gEQggFapUyUqTiLmQyYiYWbOY2R2fFajMGNPcSVukWbyYDSHMFRDQzRMElbMoUZBMTMBE1QT4BaRgFTv3zY2ISLEQTPwk2RCEzbQQSZsIiaCYkLWUiM3EEVP4DQ4HkSDIDZqnWR3fmKWomRugETEUGb4rBQ1DTTPIjTOkzJyjSU0cGb30VStvFYLk1cVQ1ZrMVcOM2L5I1LqszM2QEc0oVS3gVTIIjTDoENkEjdvIyRsIWZJgkM4UUQqPEY1XSQzMFbZgTU3b1JUcTQoEURwkTTtoVaLIWaDgiMtjEdp0FOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
 										}
 ,
 										"snapshotlist" : 										{
@@ -6217,27 +6379,81 @@
 													"version" : 2,
 													"minorversion" : 0,
 													"name" : "Transmutator",
-													"origin" : "Transmutator.dll",
-													"type" : "VST",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
 													"subtype" : "MidiEffect",
 													"embed" : 0,
 													"snapshot" : 													{
-														"pluginname" : "Transmutator.dll",
+														"pluginname" : "Transmutator.vst3",
 														"plugindisplayname" : "Transmutator",
 														"pluginsavedname" : "",
 														"pluginsaveduniqueid" : 0,
 														"version" : 1,
 														"isbank" : 0,
 														"isbase64" : 1,
-														"blob" : "292.CMlaKA....fQPMDZ....APkbg0D...P.....A..........................................53ocaO2zSCBC..F9N+JHMdCm7gXFjz1kVpt.SHt3LlsaEVovhTLzN9ve8dPO3Au9b3M4EtYt6C6QwftsWg.924ArEpp9ysJIBb0TuJBrAaAOLvU5tqFtoePKLlVkTa+34VS+vqseIBPfX+vai8CA1uLHzBSAuSPPfzhzC+kn+RXHGein3yKG2RCqRpiGK8jaoKdmlRXLeBmRxR16kWGDuZd8CAhr62eJUudZhFRpNFU7NAgftbrEr7mPRRFMm0zybdxQVjNEkybtnVMFyVZVloyMx5.xtIcxyugftkXKn6+LkFa8MMBBVt."
+														"blob" : "648.VMjLg7m....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLw3xLuMVXNIidZIzPC4hKFkCYqTEUBQVdu0TUJAiRpQTRAMVbUgUVCY0QS8jQycGVDEFZroVMWsRMxbFMmMlcw8jcKcCZrQ1b3.0MY8VdwMmQLgzXHQDQK0TXx0jVoIzP0HTXGQkKrIEZPAiSmcmLwTDQAEWdKMTPyEEMo0lLtMjUxbUM1fWTXAkSDkiTNQjPnshdIgCdtbkdJ8FVPUTcvkyJDYSPQAkPR8TRqLSNUU2cvgWaM4BajwTZ2YEYqw1X08zbynmXyr1R2bGUzUmZMgGZQkjPRQjV3TVP5AmLK0lbooDV1jWUEsBUjYiMEQ2XvoERUgyYqT0QEkVTIEWRQ4lZswjbsQDN13RV3oVa77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.SLtLyaiElSxnmVBMzPt3hQ4P1JUQkPjk2aMUkRvnjZDkTPiEWUXk0PVczTOYzb2gEQggFapUyUqTiLmQyYiYWbOY2R2fFajMGNPcSVukWbyYDSHMFRDQzRMElbMoUZBMTMBE1QT4BaRgFTv3zY2ISLEQTPwk2RCEzbQQSZsIiaCYkLWUiM3EEVP4DQ4HkSDIDZqnWR3fmKWomRugETEUGb4rBQ1DTTPIjTOkzJyjSU0cGb30VStvFYLk1cVQ1ZrMVcOM2L5I1LqszM2QEc0oVS3gVTIIjTDoENkEjdvIyRsIWZJgkM4UUQqPEY1XSQzMFbZgTU3b1JUcTQoEURwkTTtoVaLIWaDgiMtjEdp0FOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
 													}
 ,
 													"fileref" : 													{
 														"name" : "Transmutator",
-														"filename" : "Transmutator.maxsnap",
+														"filename" : "Transmutator_20201105_3.maxsnap",
 														"filepath" : "~/Documents/Max 8/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "b9df1dfd7c8fd1295929dc57f121e2f3"
+														"snapshotfileid" : "c9cc371f10bc2c3cff6458c1420e8c6f"
+													}
+
+												}
+, 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "Transmutator",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
+													"subtype" : "MidiEffect",
+													"embed" : 0,
+													"fileref" : 													{
+														"name" : "Transmutator",
+														"filename" : "Transmutator_20201105.maxsnap",
+														"filepath" : "~/Documents/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "ac46c561de442268d0e1ca48c8f31ac7"
+													}
+
+												}
+, 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "Transmutator",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
+													"subtype" : "MidiEffect",
+													"embed" : 0,
+													"fileref" : 													{
+														"name" : "Transmutator",
+														"filename" : "Transmutator_20201105_1.maxsnap",
+														"filepath" : "~/Documents/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "aec10298a08e7bd0e6e820f4106c5717"
+													}
+
+												}
+, 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "Transmutator",
+													"origin" : "Transmutator.vst3",
+													"type" : "VST3",
+													"subtype" : "MidiEffect",
+													"embed" : 0,
+													"fileref" : 													{
+														"name" : "Transmutator",
+														"filename" : "Transmutator_20201105_2.maxsnap",
+														"filepath" : "~/Documents/Max 8/Snapshots",
+														"filepos" : -1,
+														"snapshotfileid" : "cbe6d6fcd55c22f606835fcfbe1f765b"
 													}
 
 												}
@@ -6246,7 +6462,7 @@
 
 									}
 ,
-									"text" : "vst~ 4 2 Transmutator.dll",
+									"text" : "vst~ 4 2 Transmutator.vst3",
 									"varname" : "vst~",
 									"viewvisibility" : 0
 								}
@@ -8418,23 +8634,23 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Transmutator.maxsnap",
+				"name" : "Transmutator_20201105_3.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "classic-vocoder.maxpat",
 				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/effects/classic-vocoder-folder/lib",
-				"patcherrelativepath" : "../../../../../AppData/Roaming/Cycling '74/Max 8/examples/effects/classic-vocoder-folder/lib",
+				"patcherrelativepath" : "../../../../AppData/Roaming/Cycling '74/Max 8/examples/effects/classic-vocoder-folder/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "classic-channel.maxpat",
 				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/effects/classic-vocoder-folder/lib",
-				"patcherrelativepath" : "../../../../../AppData/Roaming/Cycling '74/Max 8/examples/effects/classic-vocoder-folder/lib",
+				"patcherrelativepath" : "../../../../AppData/Roaming/Cycling '74/Max 8/examples/effects/classic-vocoder-folder/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8445,23 +8661,44 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Transmutator_20201105_2.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Transmutator_20201105_1.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Transmutator_20201105.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "yafr2.maxpat",
 				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../../AppData/Roaming/Cycling '74/Max 8/examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../AppData/Roaming/Cycling '74/Max 8/examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Node-Requester.maxpat",
+				"name" : "node-requester.maxpat",
 				"bootpath" : "~/Documents/GitHub/fortolkningsdissonans/Max",
-				"patcherrelativepath" : "..",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "get-request.js",
 				"bootpath" : "~/Documents/GitHub/fortolkningsdissonans/Max",
-				"patcherrelativepath" : "..",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
