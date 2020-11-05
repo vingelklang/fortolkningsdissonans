@@ -40,6 +40,82 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-55",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1207.25, 1127.0, 62.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-49",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 969.0, 1127.0, 65.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 12.0,
+					"format" : 6,
+					"id" : "obj-22",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 705.0, 1127.0, 62.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-83",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1207.25, 1057.0, 97.0, 22.0 ],
+					"text" : "sprintf %f\\, %f %f"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 969.0, 1057.0, 97.0, 22.0 ],
+					"text" : "sprintf %f\\, %f %f"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 705.0, 1057.0, 97.0, 22.0 ],
+					"text" : "sprintf %f\\, %f %f"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -177,7 +253,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 789.0, 1022.5, 55.0, 22.0 ],
+					"patching_rect" : [ 783.0, 1022.5, 55.0, 22.0 ],
 					"text" : "r Lspeed"
 				}
 
@@ -189,7 +265,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1053.0, 1022.5, 55.0, 22.0 ],
+					"patching_rect" : [ 1047.0, 1022.5, 55.0, 22.0 ],
 					"text" : "r Lspeed"
 				}
 
@@ -201,7 +277,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1295.25, 1022.5, 55.0, 22.0 ],
+					"patching_rect" : [ 1285.25, 1022.5, 55.0, 22.0 ],
 					"text" : "r Lspeed"
 				}
 
@@ -214,18 +290,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1435.5, 1022.5, 57.0, 22.0 ],
 					"text" : "s Lspeed"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-161",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 705.0, 1022.5, 55.0, 22.0 ],
-					"text" : "append \\,"
 				}
 
 			}
@@ -255,18 +319,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-164",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 705.0, 1064.0, 103.0, 22.0 ],
-					"text" : "join 3 @triggers 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-165",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -274,18 +326,6 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 705.0, 991.5, 55.0, 22.0 ],
 					"text" : "f"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-149",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 969.0, 1022.5, 55.0, 22.0 ],
-					"text" : "append \\,"
 				}
 
 			}
@@ -310,18 +350,6 @@
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 969.0, 956.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-159",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 969.0, 1064.0, 103.0, 22.0 ],
-					"text" : "join 3 @triggers 0"
 				}
 
 			}
@@ -375,18 +403,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-140",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1207.25, 1022.5, 55.0, 22.0 ],
-					"text" : "append \\,"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-141",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -411,18 +427,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-143",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1207.25, 1064.0, 107.0, 22.0 ],
-					"text" : "join 3 @triggers 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-144",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -435,37 +439,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-122",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1207.25, 1137.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-125",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 1207.25, 1103.0, 57.0, 22.0 ],
+					"patching_rect" : [ 1207.25, 1093.0, 57.0, 22.0 ],
 					"text" : "line 0. 20"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-115",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 969.0, 1137.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -476,7 +456,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 969.0, 1103.0, 57.0, 22.0 ],
+					"patching_rect" : [ 969.0, 1093.0, 57.0, 22.0 ],
 					"text" : "line 0. 20"
 				}
 
@@ -487,20 +467,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 705.0, 1171.4375, 45.0, 22.0 ],
+					"patching_rect" : [ 705.0, 1161.4375, 45.0, 22.0 ],
 					"text" : "s freq1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-96",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 705.0, 1137.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -511,7 +479,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 705.0, 1103.0, 57.0, 22.0 ],
+					"patching_rect" : [ 705.0, 1093.0, 57.0, 22.0 ],
 					"text" : "line 0. 20"
 				}
 
@@ -522,7 +490,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1207.25, 1171.4375, 45.0, 22.0 ],
+					"patching_rect" : [ 1207.25, 1161.4375, 45.0, 22.0 ],
 					"text" : "s freq3"
 				}
 
@@ -533,7 +501,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 969.0, 1171.4375, 45.0, 22.0 ],
+					"patching_rect" : [ 969.0, 1161.4375, 45.0, 22.0 ],
 					"text" : "s freq2"
 				}
 
@@ -847,7 +815,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "23127"
+									"text" : "14785"
 								}
 
 							}
@@ -871,7 +839,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 370.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "0.7164"
+									"text" : "0.2953"
 								}
 
 							}
@@ -933,7 +901,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 381.0, 327.081179914474433, 50.0, 36.0 ],
-									"text" : "6938.1"
+									"text" : "4435.5"
 								}
 
 							}
@@ -1459,7 +1427,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "7502"
+									"text" : "21803"
 								}
 
 							}
@@ -1483,7 +1451,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 370.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "0.5867"
+									"text" : "0.5024"
 								}
 
 							}
@@ -1545,7 +1513,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 381.0, 327.081179914474433, 50.0, 22.0 ],
-									"text" : "2250.6"
+									"text" : "6540.9"
 								}
 
 							}
@@ -2071,7 +2039,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "22217"
+									"text" : "29697"
 								}
 
 							}
@@ -2095,7 +2063,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 370.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "0.6092"
+									"text" : "0.956"
 								}
 
 							}
@@ -2157,7 +2125,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 381.0, 327.081179914474433, 50.0, 22.0 ],
-									"text" : "6665.1"
+									"text" : "8909.1"
 								}
 
 							}
@@ -2861,7 +2829,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "32832"
+									"text" : "33688"
 								}
 
 							}
@@ -2885,7 +2853,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 370.0, 414.081179914474433, 50.0, 22.0 ],
-									"text" : "0.0581"
+									"text" : "0.1514"
 								}
 
 							}
@@ -2942,12 +2910,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-129",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 381.0, 327.081179914474433, 50.0, 22.0 ],
-									"text" : "9849.6"
+									"text" : "10106.4"
 								}
 
 							}
@@ -3380,7 +3349,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1435.5, 126.0, 69.0, 22.0 ],
-					"text" : "metro 9300"
+					"text" : "metro 7300"
 				}
 
 			}
@@ -3391,8 +3360,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1326.0, 126.0, 76.0, 22.0 ],
-					"text" : "metro 13300"
+					"patching_rect" : [ 1326.0, 126.0, 75.0, 22.0 ],
+					"text" : "metro 11300"
 				}
 
 			}
@@ -3415,8 +3384,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1215.0, 126.0, 76.0, 22.0 ],
-					"text" : "metro 10000"
+					"patching_rect" : [ 1215.0, 126.0, 69.0, 22.0 ],
+					"text" : "metro 9000"
 				}
 
 			}
@@ -4441,7 +4410,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 1781.994850999999926, 704.332334671020362, 145.12295500547782, 68.0 ],
-									"setfilter" : [ 0, 2, 1, 0, 0, 390.0, 1.0, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+									"setfilter" : [ 0, 2, 1, 0, 0, 370.6199951171875, 1.0, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 								}
 
 							}
@@ -4529,7 +4498,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 1077.307350999999926, 704.332334671020362, 145.12295500547782, 68.0 ],
-									"setfilter" : [ 0, 2, 1, 0, 0, 501.600006103515625, 1.0, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+									"setfilter" : [ 0, 2, 1, 0, 0, 490.6544189453125, 1.0, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 								}
 
 							}
@@ -4617,7 +4586,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 375.74485100000004, 706.916167335510181, 145.12295500547782, 68.0 ],
-									"setfilter" : [ 0, 2, 1, 0, 0, 443.649993896484375, 1.0, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+									"setfilter" : [ 0, 2, 1, 0, 0, 433.990081787109375, 1.0, 0.899999976158142, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 								}
 
 							}
@@ -5118,7 +5087,7 @@
 											"version" : 1,
 											"isbank" : 0,
 											"isbase64" : 1,
-											"blob" : "648.VMjLg7m....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLw3xLuMVXNIidgIjPCYjKGshSkoDRMQVdW4BSKMESuMGaGEiXHokQzckcxMyc3MSVvHkY3IUXU0lMSU2Q5MDY1E2JRkSa2zlS1TWLFsxPtcGb0nGSRomaPg1SvsBcwI0aqwDdjIySCkVR4MCY5ITZPEVXxXCQz4TZEMlSqYkV3z1UuI1Xr8TUqjVZYolcAcFQqHCStUzXzflUDgkZxcibnE1apEGQsozL3X2MkEmLrwFRWETTOQEYxUmVNIzSsQFRN8VP0HiZ4bmZyY2cswDL0sjKZYlY1D0R0QjKYUGcXUiSPoFUq3FS4DWQsEib5I2TVQjP3ASLWwjKoE0PJQCY5YlMLE2Z1LlQlg0b3Q0Z77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.SLtLyaiElSxnWXBIzPF4xQq3TYJgTSjk2UtvzRSwzayw1QwHFRZYDcWYmbybGdyjELRYFdREVUsYyT0cjdCQlcwshT4z1Ms4jM0EiQqLja2AWM5wjT54FTn8DbqPWbR81ZLgGYx7zPokTdyPldBkFTgElL1PDcNkVQi4zZVoENsc0ahMFaOU0JokVVpYWPmQzJxvjaEMFMnYEQXolb2HGZg8lZwQTaJMCN1cSYwICargzUAE0STQlb0okSB8TajgjSuETMxnVN2o1b1cWaLAScK4hVlYlMQsTcD4RV0QGV03DTpQ0JtwTNwUTawHmdxMkUDIDdvDyUL4RZQMjRzPldlYCSwslMiYjYXMGdTsFOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
+											"blob" : "630.VMjLgzl....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSNz3xLuMVXNIidCEzPC4hKFkSN4Tkb5MCaOYURBMkTgsVLDUFSIoTRrYVZEUUU2o0ayg0MwISPNMiYw8TR0kTctkyZE0VZ0szXjMGLlETSg4RP2IUdNYCYyE0YAIiPGAWaBUyTnAEMNc1cWI1RHIjUsckQBoUZ3czSXUmSXM1R5UmZyYmKX0DRHQFcSUyZAQmaPI0clwDYVkScDYyRQAkPRUTRqf2aMkFVw.mXWkzMRElQgMVRygSbvomdwMjYOQlc1HUaY0lc0v1YQkjPRQjV1zlKZEid2giSRUjbSMFUuEmQqHFMDISTU4jZvwFMGUiaXwjRYsTRBs1MskENp4lLlsFLLUjQ77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOwjCMtLyaiElSxn2PAMzPt3hQ4jSNUImdyv1SVkjPSIUXqECQkwTRJkDalkVQUU0cZ81bXcSbxDjSyXVbOkTcIUma4rVQskVcKMFYyAiYA0TXtDzcRkmS1P1bQcVPxHzQv0lP0LEZPQiSmc2UhsDRBYUaWYjPZkFdG8DV04DVisjd0o1b14BVMgDRjQ2T0rVPz4FTRcmYLQlU4TGQ1rTTPIjTEkzJ38VSogULvI1UIciTgYTXikzb3DGb5oWbCY1SjYmMR0VVsYWMrcVTIIjTDokMs4hVwn2c33jTEI2TiQ0awYzJhQCQxDUUNoFbrQyQ03FVLoTVKkjPqcSaYgiZtIiYqACSEYDOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
 										}
 ,
 										"snapshotlist" : 										{
@@ -5140,7 +5109,7 @@
 														"version" : 1,
 														"isbank" : 0,
 														"isbase64" : 1,
-														"blob" : "648.VMjLg7m....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLw3xLuMVXNIidgIjPCYjKGshSkoDRMQVdW4BSKMESuMGaGEiXHokQzckcxMyc3MSVvHkY3IUXU0lMSU2Q5MDY1E2JRkSa2zlS1TWLFsxPtcGb0nGSRomaPg1SvsBcwI0aqwDdjIySCkVR4MCY5ITZPEVXxXCQz4TZEMlSqYkV3z1UuI1Xr8TUqjVZYolcAcFQqHCStUzXzflUDgkZxcibnE1apEGQsozL3X2MkEmLrwFRWETTOQEYxUmVNIzSsQFRN8VP0HiZ4bmZyY2cswDL0sjKZYlY1D0R0QjKYUGcXUiSPoFUq3FS4DWQsEib5I2TVQjP3ASLWwjKoE0PJQCY5YlMLE2Z1LlQlg0b3Q0Z77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.SLtLyaiElSxnWXBIzPF4xQq3TYJgTSjk2UtvzRSwzayw1QwHFRZYDcWYmbybGdyjELRYFdREVUsYyT0cjdCQlcwshT4z1Ms4jM0EiQqLja2AWM5wjT54FTn8DbqPWbR81ZLgGYx7zPokTdyPldBkFTgElL1PDcNkVQi4zZVoENsc0ahMFaOU0JokVVpYWPmQzJxvjaEMFMnYEQXolb2HGZg8lZwQTaJMCN1cSYwICargzUAE0STQlb0okSB8TajgjSuETMxnVN2o1b1cWaLAScK4hVlYlMQsTcD4RV0QGV03DTpQ0JtwTNwUTawHmdxMkUDIDdvDyUL4RZQMjRzPldlYCSwslMiYjYXMGdTsFOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
+														"blob" : "630.VMjLgzl....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSNz3xLuMVXNIidCEzPC4hKFkSN4Tkb5MCaOYURBMkTgsVLDUFSIoTRrYVZEUUU2o0ayg0MwISPNMiYw8TR0kTctkyZE0VZ0szXjMGLlETSg4RP2IUdNYCYyE0YAIiPGAWaBUyTnAEMNc1cWI1RHIjUsckQBoUZ3czSXUmSXM1R5UmZyYmKX0DRHQFcSUyZAQmaPI0clwDYVkScDYyRQAkPRUTRqf2aMkFVw.mXWkzMRElQgMVRygSbvomdwMjYOQlc1HUaY0lc0v1YQkjPRQjV1zlKZEid2giSRUjbSMFUuEmQqHFMDISTU4jZvwFMGUiaXwjRYsTRBs1MskENp4lLlsFLLUjQ77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOwjCMtLyaiElSxn2PAMzPt3hQ4jSNUImdyv1SVkjPSIUXqECQkwTRJkDalkVQUU0cZ81bXcSbxDjSyXVbOkTcIUma4rVQskVcKMFYyAiYA0TXtDzcRkmS1P1bQcVPxHzQv0lP0LEZPQiSmc2UhsDRBYUaWYjPZkFdG8DV04DVisjd0o1b14BVMgDRjQ2T0rVPz4FTRcmYLQlU4TGQ1rTTPIjTEkzJ38VSogULvI1UIciTgYTXikzb3DGb5oWbCY1SjYmMR0VVsYWMrcVTIIjTDokMs4hVwn2c33jTEI2TiQ0awYzJhQCQxDUUNoFbrQyQ03FVLoTVKkjPqcSaYgiZtIiYqACSEYDOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
 													}
 ,
 													"fileref" : 													{
@@ -5535,7 +5504,7 @@
 											"version" : 1,
 											"isbank" : 0,
 											"isbase64" : 1,
-											"blob" : "644.VMjLgrm....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSN43xLuMVXNUWbgIzPCUjKFQ1SOUTTVI2cqoFdtPjZx0TMpYERDoFRTETPmIkLLs1TiwjR2ETVgQWN5kmKLYGTWshZ4rVNukVcVcEMkYTSVUUZrEUNtcER2cDLqDibW81ZLgWRxT1XogTZzPldhkFTgE2SzPDcFkVQi4zZVoENsI2UznESwUkL2kCSRgUaPg1JxXjdnQGSQ0jPLIkVVoUN1P0MKg1TEciUXEycCUTR2IUXZUkZyHUXvPDQ4nDMhQkXEoGcJkEL1IzL301ZEY2SK8VPBQ2QiISdtfzX2IWTqYFR4XmKYoWLYISLLICUJk2PAQiT1P0P1gkdlMlXOokcqvTbqYCNtPjUJMUYCwyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9DSN43xLuMVXNUWbgIzPCUjKFQ1SOUTTVI2cqoFdtPjZx0TMpYERDoFRTETPmIkLLs1TiwjR2ETVgQWN5kmKLYGTWshZ4rVNukVcVcEMkYTSVUUZrEUNtcER2cDLqDibW81ZLgWRxT1XogTZzPldhkFTgE2SzPDcFkVQi4zZVoENsI2UznESwUkL2kCSRgUaPg1JxXjdnQGSQ0jPLIkVVoUN1P0MKg1TEciUXEycCUTR2IUXZUkZyHUXvPDQ4nDMhQkXEoGcJkEL1IzL301ZEY2SK8VPBQ2QiISdtfzX2IWTqYFR4XmKYoWLYISLLICUJk2PAQiT1P0P1gkdlMlXOokcqvTbqYCNtPjUJMUYCwyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+											"blob" : "644.VMjLgrm....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSN43xLuMVXNcjbZIzPC4hKFkCYkojRAU2a4YTQ2U0YpQkThUibCImRXUDLo8lVL0zZvPzURomU37lLCE1QwDTc4DzJ18jRuMWN1XWXBE2TYoGV1YVNPAkaPUldhI0aqgkcUsBMxfVPIolKTQ2ZwMFLWgiX0cWMDQVcRszXmkmSuciQ1XDLCcGTL4RLCIjPWEVQNc1Soc0RtgETZYkV4rRRwTFQAcWRiQTVWAmS2jTbYUyQxvFS2fGRFEVYKMldoQmdyTFaAElV3QVazoGSrAiR24FRNkjKUcSXtzzXzfVRqQkSwokbLQlLnYSXqfmUJk2YTQiRxH1REkVTQUjZtPkdKwFLQIDYBYFMKM0QBwyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9DSN43xLuMVXNcjbZIzPC4hKFkCYkojRAU2a4YTQ2U0YpQkThUibCImRXUDLo8lVL0zZvPzURomU37lLCE1QwDTc4DzJ18jRuMWN1XWXBE2TYoGV1YVNPAkaPUldhI0aqgkcUsBMxfVPIolKTQ2ZwMFLWgiX0cWMDQVcRszXmkmSuciQ1XDLCcGTL4RLCIjPWEVQNc1Soc0RtgETZYkV4rRRwTFQAcWRiQTVWAmS2jTbYUyQxvFS2fGRFEVYKMldoQmdyTFaAElV3QVazoGSrAiR24FRNkjKUcSXtzzXzfVRqQkSwokbLQlLnYSXqfmUJk2YTQiRxH1REkVTQUjZtPkdKwFLQIDYBYFMKM0QBwyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9.."
 										}
 ,
 										"snapshotlist" : 										{
@@ -5557,7 +5526,7 @@
 														"version" : 1,
 														"isbank" : 0,
 														"isbase64" : 1,
-														"blob" : "644.VMjLgrm....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSN43xLuMVXNUWbgIzPCUjKFQ1SOUTTVI2cqoFdtPjZx0TMpYERDoFRTETPmIkLLs1TiwjR2ETVgQWN5kmKLYGTWshZ4rVNukVcVcEMkYTSVUUZrEUNtcER2cDLqDibW81ZLgWRxT1XogTZzPldhkFTgE2SzPDcFkVQi4zZVoENsI2UznESwUkL2kCSRgUaPg1JxXjdnQGSQ0jPLIkVVoUN1P0MKg1TEciUXEycCUTR2IUXZUkZyHUXvPDQ4nDMhQkXEoGcJkEL1IzL301ZEY2SK8VPBQ2QiISdtfzX2IWTqYFR4XmKYoWLYISLLICUJk2PAQiT1P0P1gkdlMlXOokcqvTbqYCNtPjUJMUYCwyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9DSN43xLuMVXNUWbgIzPCUjKFQ1SOUTTVI2cqoFdtPjZx0TMpYERDoFRTETPmIkLLs1TiwjR2ETVgQWN5kmKLYGTWshZ4rVNukVcVcEMkYTSVUUZrEUNtcER2cDLqDibW81ZLgWRxT1XogTZzPldhkFTgE2SzPDcFkVQi4zZVoENsI2UznESwUkL2kCSRgUaPg1JxXjdnQGSQ0jPLIkVVoUN1P0MKg1TEciUXEycCUTR2IUXZUkZyHUXvPDQ4nDMhQkXEoGcJkEL1IzL301ZEY2SK8VPBQ2QiISdtfzX2IWTqYFR4XmKYoWLYISLLICUJk2PAQiT1P0P1gkdlMlXOokcqvTbqYCNtPjUJMUYCwyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+														"blob" : "644.VMjLgrm....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSN43xLuMVXNcjbZIzPC4hKFkCYkojRAU2a4YTQ2U0YpQkThUibCImRXUDLo8lVL0zZvPzURomU37lLCE1QwDTc4DzJ18jRuMWN1XWXBE2TYoGV1YVNPAkaPUldhI0aqgkcUsBMxfVPIolKTQ2ZwMFLWgiX0cWMDQVcRszXmkmSuciQ1XDLCcGTL4RLCIjPWEVQNc1Soc0RtgETZYkV4rRRwTFQAcWRiQTVWAmS2jTbYUyQxvFS2fGRFEVYKMldoQmdyTFaAElV3QVazoGSrAiR24FRNkjKUcSXtzzXzfVRqQkSwokbLQlLnYSXqfmUJk2YTQiRxH1REkVTQUjZtPkdKwFLQIDYBYFMKM0QBwyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9DSN43xLuMVXNcjbZIzPC4hKFkCYkojRAU2a4YTQ2U0YpQkThUibCImRXUDLo8lVL0zZvPzURomU37lLCE1QwDTc4DzJ18jRuMWN1XWXBE2TYoGV1YVNPAkaPUldhI0aqgkcUsBMxfVPIolKTQ2ZwMFLWgiX0cWMDQVcRszXmkmSuciQ1XDLCcGTL4RLCIjPWEVQNc1Soc0RtgETZYkV4rRRwTFQAcWRiQTVWAmS2jTbYUyQxvFS2fGRFEVYKMldoQmdyTFaAElV3QVazoGSrAiR24FRNkjKUcSXtzzXzfVRqQkSwokbLQlLnYSXqfmUJk2YTQiRxH1REkVTQUjZtPkdKwFLQIDYBYFMKM0QBwyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9.."
 													}
 ,
 													"fileref" : 													{
@@ -5952,7 +5921,7 @@
 											"version" : 1,
 											"isbank" : 0,
 											"isbase64" : 1,
-											"blob" : "644.VMjLgrm....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSN43xLuMVXNcjbZIzPC4hKFkCYkojRAUGLu0jREcUQRglZt3zbBszXoAychcTZvHmdHEWRikTTyESaj8jbig0Q2TyQ2LzJtsFNyU1QkYUM2nUbAMDaNEjPnsFaZYSPyE0YA0lPk0jSGImZDcFbhITZ0gCUPQjbNUGSDomQq8DYvDzX1UCYS8DRscVP1cjYlMyUhIUcLYWQyIkRFQkcKAWNOcWNogDRAkkZpIyX2jGLLEVR4sldxr1cXYSMuk0PIo2MkYUP0I1YqfzZWcUdrkiRFslRHEka3rhQPsDYjkGZFAmYiIFcJsRZMcUYkEWbQUUPuAmTqLkSJYTZRIyTnA0axjkUOkTMFoFNKMkPBwyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9DSN43xLuMVXNcjbZIzPC4hKFkCYkojRAUGLu0jREcUQRglZt3zbBszXoAychcTZvHmdHEWRikTTyESaj8jbig0Q2TyQ2LzJtsFNyU1QkYUM2nUbAMDaNEjPnsFaZYSPyE0YA0lPk0jSGImZDcFbhITZ0gCUPQjbNUGSDomQq8DYvDzX1UCYS8DRscVP1cjYlMyUhIUcLYWQyIkRFQkcKAWNOcWNogDRAkkZpIyX2jGLLEVR4sldxr1cXYSMuk0PIo2MkYUP0I1YqfzZWcUdrkiRFslRHEka3rhQPsDYjkGZFAmYiIFcJsRZMcUYkEWbQUUPuAmTqLkSJYTZRIyTnA0axjkUOkTMFoFNKMkPBwyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+											"blob" : "630.VMjLgzl....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSNz3xLuMVXNcjbCEzPC4hKFkSNjojUZIFQwQjZI81bRczPSgkZXg1LXMWUiM2c0XkVKEzS33jcAcjX3rDMOQyQMQSTvT0J1HVZUYUb2YFYiclKkQmS0QGTvUDV10jLq4zYlkDQOQEam81bUIiXLc0b2g2XN8lUXgSZKoFcZkGYzrDYkwjKwXjP2HSVyXEcKsVU28FVPIkVREScTo2UnYFVpY0M5YDLuUTTCg1UwQUMLMibuIyZ5cTMPUicC8VSqg1R37VX4UUToEiYQEDSncTM2zlKZgGaqk1RuIGRvfTTyb2ZO8jb3QkR3YFU2YkMhMTQoEUPskDYtY1JLE2ZyfiQyHCYLkTS77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOwjCMtLyaiElSGI2PAMzPt3hQ4jCYJYkVhQTbDoVRuMmTGMzTXoFVnMCVyU0XycWMVo0RA8DNNYWPGIFNKQySzbTSzDELUshMhkVUVE2clQ1Xm4RYz4TczAEbEgkcMIyZNclYIQzSTw1YuMWUxHFSWM2c3MlSuYEV3j1RpQmV4QFMKQVYL4RLFIzMxj0LVQ2RqU0cugETRokTwTGU5cEZlgkZVcidFAyaEE0PncUbTUCSyH2axrldGUCT0X2Pu0zZnsDNuEVdUEUZwXVTAwDZGUyMs4hV3w1ZoszaxgDLHE0L2s1SOIGdToDdlQ0cVYiXCUTZQETaIQlalsBSws1L3XzLxPFSI0DOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
 										}
 ,
 										"snapshotlist" : 										{
@@ -5974,7 +5943,7 @@
 														"version" : 1,
 														"isbank" : 0,
 														"isbase64" : 1,
-														"blob" : "644.VMjLgrm....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSN43xLuMVXNcjbZIzPC4hKFkCYkojRAUGLu0jREcUQRglZt3zbBszXoAychcTZvHmdHEWRikTTyESaj8jbig0Q2TyQ2LzJtsFNyU1QkYUM2nUbAMDaNEjPnsFaZYSPyE0YA0lPk0jSGImZDcFbhITZ0gCUPQjbNUGSDomQq8DYvDzX1UCYS8DRscVP1cjYlMyUhIUcLYWQyIkRFQkcKAWNOcWNogDRAkkZpIyX2jGLLEVR4sldxr1cXYSMuk0PIo2MkYUP0I1YqfzZWcUdrkiRFslRHEka3rhQPsDYjkGZFAmYiIFcJsRZMcUYkEWbQUUPuAmTqLkSJYTZRIyTnA0axjkUOkTMFoFNKMkPBwyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9DSN43xLuMVXNcjbZIzPC4hKFkCYkojRAUGLu0jREcUQRglZt3zbBszXoAychcTZvHmdHEWRikTTyESaj8jbig0Q2TyQ2LzJtsFNyU1QkYUM2nUbAMDaNEjPnsFaZYSPyE0YA0lPk0jSGImZDcFbhITZ0gCUPQjbNUGSDomQq8DYvDzX1UCYS8DRscVP1cjYlMyUhIUcLYWQyIkRFQkcKAWNOcWNogDRAkkZpIyX2jGLLEVR4sldxr1cXYSMuk0PIo2MkYUP0I1YqfzZWcUdrkiRFslRHEka3rhQPsDYjkGZFAmYiIFcJsRZMcUYkEWbQUUPuAmTqLkSJYTZRIyTnA0axjkUOkTMFoFNKMkPBwyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+														"blob" : "630.VMjLgzl....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DSNz3xLuMVXNcjbCEzPC4hKFkSNjojUZIFQwQjZI81bRczPSgkZXg1LXMWUiM2c0XkVKEzS33jcAcjX3rDMOQyQMQSTvT0J1HVZUYUb2YFYiclKkQmS0QGTvUDV10jLq4zYlkDQOQEam81bUIiXLc0b2g2XN8lUXgSZKoFcZkGYzrDYkwjKwXjP2HSVyXEcKsVU28FVPIkVREScTo2UnYFVpY0M5YDLuUTTCg1UwQUMLMibuIyZ5cTMPUicC8VSqg1R37VX4UUToEiYQEDSncTM2zlKZgGaqk1RuIGRvfTTyb2ZO8jb3QkR3YFU2YkMhMTQoEUPskDYtY1JLE2ZyfiQyHCYLkTS77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOwjCMtLyaiElSGI2PAMzPt3hQ4jCYJYkVhQTbDoVRuMmTGMzTXoFVnMCVyU0XycWMVo0RA8DNNYWPGIFNKQySzbTSzDELUshMhkVUVE2clQ1Xm4RYz4TczAEbEgkcMIyZNclYIQzSTw1YuMWUxHFSWM2c3MlSuYEV3j1RpQmV4QFMKQVYL4RLFIzMxj0LVQ2RqU0cugETRokTwTGU5cEZlgkZVcidFAyaEE0PncUbTUCSyH2axrldGUCT0X2Pu0zZnsDNuEVdUEUZwXVTAwDZGUyMs4hV3w1ZoszaxgDLHE0L2s1SOIGdToDdlQ0cVYiXCUTZQETaIQlalsBSws1L3XzLxPFSI0DOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
 													}
 ,
 													"fileref" : 													{
@@ -6369,7 +6338,7 @@
 											"version" : 1,
 											"isbank" : 0,
 											"isbase64" : 1,
-											"blob" : "648.VMjLg7m....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLw3xLuMVXNIidZIzPC4hKFkCYqTEUBQVdu0TUJAiRpQTRAMVbUgUVCY0QS8jQycGVDEFZroVMWsRMxbFMmMlcw8jcKcCZrQ1b3.0MY8VdwMmQLgzXHQDQK0TXx0jVoIzP0HTXGQkKrIEZPAiSmcmLwTDQAEWdKMTPyEEMo0lLtMjUxbUM1fWTXAkSDkiTNQjPnshdIgCdtbkdJ8FVPUTcvkyJDYSPQAkPR8TRqLSNUU2cvgWaM4BajwTZ2YEYqw1X08zbynmXyr1R2bGUzUmZMgGZQkjPRQjV3TVP5AmLK0lbooDV1jWUEsBUjYiMEQ2XvoERUgyYqT0QEkVTIEWRQ4lZswjbsQDN13RV3oVa77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.SLtLyaiElSxnmVBMzPt3hQ4P1JUQkPjk2aMUkRvnjZDkTPiEWUXk0PVczTOYzb2gEQggFapUyUqTiLmQyYiYWbOY2R2fFajMGNPcSVukWbyYDSHMFRDQzRMElbMoUZBMTMBE1QT4BaRgFTv3zY2ISLEQTPwk2RCEzbQQSZsIiaCYkLWUiM3EEVP4DQ4HkSDIDZqnWR3fmKWomRugETEUGb4rBQ1DTTPIjTOkzJyjSU0cGb30VStvFYLk1cVQ1ZrMVcOM2L5I1LqszM2QEc0oVS3gVTIIjTDoENkEjdvIyRsIWZJgkM4UUQqPEY1XSQzMFbZgTU3b1JUcTQoEURwkTTtoVaLIWaDgiMtjEdp0FOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
+											"blob" : "648.VMjLg7m....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLw3xLuMVXNEyMZIzPCcjK3P1Jw4FQ2vlSgECT0n0YpgzJ3cSbJgENwEybzb2LZwTS3oEbpQzQgYScjEkdCYiczkyL3X1QYMiLMUlQ4rld0n2bFoTM2kCVT4ld2DUXqEiat4Vd4LzSpYlQ3IDREY0Y2AiXwrzMyYUa5YCLFs1RhI1ZwHiVx.2JUkCQEUTZ2gCZ2gEUynTb5kDNzflQIAUTYQSVEsRQ2UWZXQTPwkFSqn2ciMEMwszQ2UlUpoWQlk1cvoVSuAkLWUVTLgkLyPEVzsxXz4zYRgFQx4Bd4DVPPECZY8FLlYVYUkybYsBUNIiUwojclo0aggVQtQkT5QlUtjTMkYTL2IDc1YSZ2olU77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.SLtLyaiElSwbiVBMzPG4BNjsRbtQzMr4TXw.UMZclZHsBd2DmRXgSbwLGM2MiVL0DdZAmZDcTX1TGYQo2P1XGc4LCNlcTVyHSSkYTNqoWM5MmQJUyc4fEUto2MQE1Zw3latkWNC8jZlYDdBgTQVc1cvHVLKcybV0ld1.iQqsjXhsVLxnkLvsRU4PTQEk1c3f1cXQ0LJEmdIgCMnYTRPEUVzjUQqTzc0kFVDETbowzJ5c2XSQSbKczckYkZ5UjYocGbp0zaPIyUkEESXIyLTgEcqLFcNclTnQjbtfWNgEDTwfVVuAiYlUVU4LWVqPkSxXUbJYmYZ8VXnUjaTIkdjYkKIUSYFEycBQmc1j1cpYEOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
 										}
 ,
 										"snapshotlist" : 										{
@@ -6391,7 +6360,7 @@
 														"version" : 1,
 														"isbank" : 0,
 														"isbase64" : 1,
-														"blob" : "648.VMjLg7m....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLw3xLuMVXNIidZIzPC4hKFkCYqTEUBQVdu0TUJAiRpQTRAMVbUgUVCY0QS8jQycGVDEFZroVMWsRMxbFMmMlcw8jcKcCZrQ1b3.0MY8VdwMmQLgzXHQDQK0TXx0jVoIzP0HTXGQkKrIEZPAiSmcmLwTDQAEWdKMTPyEEMo0lLtMjUxbUM1fWTXAkSDkiTNQjPnshdIgCdtbkdJ8FVPUTcvkyJDYSPQAkPR8TRqLSNUU2cvgWaM4BajwTZ2YEYqw1X08zbynmXyr1R2bGUzUmZMgGZQkjPRQjV3TVP5AmLK0lbooDV1jWUEsBUjYiMEQ2XvoERUgyYqT0QEkVTIEWRQ4lZswjbsQDN13RV3oVa77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.SLtLyaiElSxnmVBMzPt3hQ4P1JUQkPjk2aMUkRvnjZDkTPiEWUXk0PVczTOYzb2gEQggFapUyUqTiLmQyYiYWbOY2R2fFajMGNPcSVukWbyYDSHMFRDQzRMElbMoUZBMTMBE1QT4BaRgFTv3zY2ISLEQTPwk2RCEzbQQSZsIiaCYkLWUiM3EEVP4DQ4HkSDIDZqnWR3fmKWomRugETEUGb4rBQ1DTTPIjTOkzJyjSU0cGb30VStvFYLk1cVQ1ZrMVcOM2L5I1LqszM2QEc0oVS3gVTIIjTDoENkEjdvIyRsIWZJgkM4UUQqPEY1XSQzMFbZgTU3b1JUcTQoEURwkTTtoVaLIWaDgiMtjEdp0FOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
+														"blob" : "648.VMjLg7m....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLw3xLuMVXNEyMZIzPCcjK3P1Jw4FQ2vlSgECT0n0YpgzJ3cSbJgENwEybzb2LZwTS3oEbpQzQgYScjEkdCYiczkyL3X1QYMiLMUlQ4rld0n2bFoTM2kCVT4ld2DUXqEiat4Vd4LzSpYlQ3IDREY0Y2AiXwrzMyYUa5YCLFs1RhI1ZwHiVx.2JUkCQEUTZ2gCZ2gEUynTb5kDNzflQIAUTYQSVEsRQ2UWZXQTPwkFSqn2ciMEMwszQ2UlUpoWQlk1cvoVSuAkLWUVTLgkLyPEVzsxXz4zYRgFQx4Bd4DVPPECZY8FLlYVYUkybYsBUNIiUwojclo0aggVQtQkT5QlUtjTMkYTL2IDc1YSZ2olU77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.SLtLyaiElSwbiVBMzPG4BNjsRbtQzMr4TXw.UMZclZHsBd2DmRXgSbwLGM2MiVL0DdZAmZDcTX1TGYQo2P1XGc4LCNlcTVyHSSkYTNqoWM5MmQJUyc4fEUto2MQE1Zw3latkWNC8jZlYDdBgTQVc1cvHVLKcybV0ld1.iQqsjXhsVLxnkLvsRU4PTQEk1c3f1cXQ0LJEmdIgCMnYTRPEUVzjUQqTzc0kFVDETbowzJ5c2XSQSbKczckYkZ5UjYocGbp0zaPIyUkEESXIyLTgEcqLFcNclTnQjbtfWNgEDTwfVVuAiYlUVU4LWVqPkSxXUbJYmYZ8VXnUjaTIkdjYkKIUSYFEycBQmc1j1cpYEOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
 													}
 ,
 													"fileref" : 													{
@@ -7541,14 +7510,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-115", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-115", 0 ],
+					"destination" : [ "obj-49", 0 ],
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -7562,14 +7524,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-122", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-122", 0 ],
+					"destination" : [ "obj-55", 0 ],
 					"source" : [ "obj-125", 0 ]
 				}
 
@@ -7590,13 +7545,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-143", 0 ],
-					"source" : [ "obj-140", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-144", 1 ],
 					"source" : [ "obj-141", 0 ]
 				}
@@ -7611,14 +7559,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-125", 0 ],
-					"source" : [ "obj-143", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-140", 0 ],
+					"destination" : [ "obj-83", 0 ],
 					"source" : [ "obj-144", 0 ]
 				}
 
@@ -7641,13 +7582,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-173", 0 ],
 					"source" : [ "obj-147", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-159", 0 ],
-					"source" : [ "obj-149", 0 ]
 				}
 
 			}
@@ -7695,13 +7629,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-118", 0 ],
-					"source" : [ "obj-159", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
@@ -7709,15 +7636,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-149", 0 ],
+					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-160", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-164", 0 ],
-					"source" : [ "obj-161", 0 ]
 				}
 
 			}
@@ -7737,14 +7657,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"source" : [ "obj-164", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-161", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-165", 0 ]
 				}
 
@@ -7767,21 +7680,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-143", 2 ],
+					"destination" : [ "obj-83", 2 ],
 					"source" : [ "obj-174", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-159", 2 ],
+					"destination" : [ "obj-20", 2 ],
 					"source" : [ "obj-175", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-164", 2 ],
+					"destination" : [ "obj-3", 2 ],
 					"source" : [ "obj-176", 0 ]
 				}
 
@@ -7883,6 +7796,13 @@
 					"destination" : [ "obj-24", 0 ],
 					"order" : 0,
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -8000,6 +7920,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-162", 0 ],
 					"order" : 1,
 					"source" : [ "obj-23", 0 ]
@@ -8016,7 +7943,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-164", 1 ],
+					"destination" : [ "obj-3", 1 ],
 					"order" : 0,
 					"source" : [ "obj-23", 0 ]
 				}
@@ -8075,6 +8002,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 5 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -8184,7 +8118,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-159", 1 ],
+					"destination" : [ "obj-20", 1 ],
 					"order" : 0,
 					"source" : [ "obj-40", 0 ]
 				}
@@ -8208,7 +8142,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-143", 1 ],
+					"destination" : [ "obj-83", 1 ],
 					"order" : 0,
 					"source" : [ "obj-41", 0 ]
 				}
@@ -8244,8 +8178,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-96", 0 ],
+					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-49", 0 ]
 				}
 
 			}
@@ -8292,6 +8233,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}
@@ -8546,6 +8494,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-125", 0 ],
+					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-154", 0 ],
 					"source" : [ "obj-84", 0 ]
 				}
@@ -8611,13 +8566,6 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-110", 0 ],
-					"source" : [ "obj-96", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
 			"obj-11" : [ "live.gain~", "live.gain~", 0 ],
@@ -8641,6 +8589,27 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Transmutator_20201105.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Transmutator_20201105_1.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Transmutator_20201105_2.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "classic-vocoder.maxpat",
 				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/effects/classic-vocoder-folder/lib",
 				"patcherrelativepath" : "../../../../AppData/Roaming/Cycling '74/Max 8/examples/effects/classic-vocoder-folder/lib",
@@ -8658,27 +8627,6 @@
 				"name" : "testtrackDECON.wav",
 				"bootpath" : "E:/Vingelklang/Reverse Grinder/Fortolkningsdissonans/Cubase/Audio",
 				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Transmutator_20201105_2.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Transmutator_20201105_1.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Transmutator_20201105.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Max 8/Snapshots",
-				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
