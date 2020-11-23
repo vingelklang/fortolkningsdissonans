@@ -1,0 +1,14 @@
+{
+  "name": "forto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "get-request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socks5-http-client": "^1.0.4"
+  }
+}
