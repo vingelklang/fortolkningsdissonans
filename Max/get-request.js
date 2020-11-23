@@ -8,7 +8,7 @@ var proxy = process.env.socks_proxy || 'socks://127.0.0.1:9150';
 console.log('using proxy server %j', proxy);
 
 // HTTP endpoint for the proxy to connect to
-var endpoint = process.argv[2] || 'http://x2dvt6rxtpedsuvqb6rr34ysb6bmhwa67pwq3bp6aswpphlb2sk4gryd.onion/api/get-today';
+var endpoint = process.argv[2] || 'http://x2dvt6rxtpedsuvqb6rr34ysb6bmhwa67pwq3bp6aswpphlb2sk4gryd.onion/api/get-latest';
 console.log('attempting to GET %j', endpoint);
 var opts = url.parse(endpoint);
 
