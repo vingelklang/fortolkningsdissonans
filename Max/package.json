@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "socks-proxy-agent": "^5.0.0",
     "socks5-http-client": "^1.0.4"
   }
 }
