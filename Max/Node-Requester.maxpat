@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 154.0, 98.25, 67.0, 22.0 ],
+					"text" : "delay 5000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 154.0, 69.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 19.903472033014715,
 					"id" : "obj-76",
 					"maxclass" : "newobj",
@@ -51,7 +75,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -351,7 +375,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 241.5, 288.0, 64.0, 36.0 ],
+					"patching_rect" : [ 241.5, 288.0, 64.0, 35.0 ],
 					"text" : "get mima::ma"
 				}
 
@@ -376,7 +400,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 310.5, 288.0, 67.0, 36.0 ],
+					"patching_rect" : [ 310.5, 288.0, 67.0, 35.0 ],
 					"text" : "get mima::mi"
 				}
 
@@ -459,7 +483,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 442.5, 524.0, 63.0, 36.0 ],
+					"patching_rect" : [ 442.5, 524.0, 63.0, 35.0 ],
 					"text" : "s mod4data"
 				}
 
@@ -571,7 +595,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 529.25, 524.0, 61.0, 36.0 ],
+					"patching_rect" : [ 529.25, 524.0, 61.0, 35.0 ],
 					"text" : "s dayNumb"
 				}
 
@@ -583,7 +607,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 374.0, 524.0, 63.0, 36.0 ],
+					"patching_rect" : [ 374.0, 524.0, 63.0, 35.0 ],
 					"text" : "s mod3data"
 				}
 
@@ -595,7 +619,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 304.5, 524.0, 63.0, 36.0 ],
+					"patching_rect" : [ 304.5, 524.0, 63.0, 35.0 ],
 					"text" : "s mod2data"
 				}
 
@@ -607,7 +631,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 233.5, 524.0, 63.0, 36.0 ],
+					"patching_rect" : [ 233.5, 524.0, 63.0, 35.0 ],
 					"text" : "s mod1data"
 				}
 
@@ -971,7 +995,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 77.0, 138.0, 53.0 ],
+					"patching_rect" : [ 223.0, 77.0, 138.0, 52.0 ],
 					"text" : "All control messages are prefixed with 'script'"
 				}
 
@@ -1146,6 +1170,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-27", 0 ]
 				}
@@ -1221,6 +1252,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-34", 0 ]
 				}
 
 			}
@@ -1523,7 +1561,34 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "get-request.js",
+				"bootpath" : "~/Code/Art Projects/reverse-grinder/fortolkningsdissonans/fortolkningsdissonans/Max",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "n4m.monitor.maxpat",
+				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "resize_n4m_monitor_patcher.js",
+				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fit_jweb_to_bounds.js",
+				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
